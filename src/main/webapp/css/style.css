@@ -1,0 +1,270 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body 
+{
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section 
+{
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+    content:'';
+    content:none;
+}
+
+a 
+{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins 
+{
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del 
+{
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title]
+ {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table 
+{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select 
+{
+    vertical-align:middle;
+}
+
+/*----------------------------------------MAIN CODE INDEX ------------------------------------------------------*/
+
+.wrapper
+{
+    height: 660px;
+    width: 1350px;
+    /*background-color: red;*/
+}
+
+header
+{
+    height:100px;
+    width: 1362px;
+    background-color: black;
+   /* padding-top: 0px;
+    padding-bottom: 4px;
+    position:fixed;*/
+}
+
+section
+{ 
+    height: 550px;
+    width: 1361px;
+    background-color: grey;
+    
+}
+
+footer
+{
+    height: 130px;
+    width: 1364px;
+    background-color: black;
+}
+
+.logo
+{
+    float: left;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-bottom: 4px;
+
+}
+
+
+.logo h1
+{
+    padding-top: 50px;/*header online library*/
+    word-spacing:3px ;
+    font-weight: 60px;
+}
+
+li a
+{
+   color: white;
+   text-decoration: none;
+
+}
+
+nav
+{
+    float: right;
+    word-spacing:30px ;
+    padding: 20px;
+}
+
+nav li
+{
+   display: inline-block;
+   line-height: 80px ;
+}
+
+section .sec_img
+{
+    height:550px ;
+    margin-top:0px ;
+    background-image:url("../images/t30.jpg");
+}
+
+.box
+{
+    height: 300px;
+    width: 490px;
+   /* background-color:#1c1a1a;*/
+    margin: 85px auto;/*moving center*/
+  /*  opacity: .6;/*image with clear background*/
+   color: white;
+}
+
+/*--------------------------------------END-MAIN CODE INDEX -----------------------------------------------------*/
+
+/*---------------------------------Admin Login- Student Login-Librarian Login------------------------------------*/
+.log_img
+{
+    height:650px ;
+    margin-top:0px ;
+    background-image:url("../images/BK1.jpg") ;
+}
+
+.box1
+{
+    height: 310px;
+    width: 420px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .7;
+    color: white;
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom:3px;
+   
+}
+
+form .login
+{
+ margin:  auto 50px; /*to move left*/  
+
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------Add Librarian AddBooks AddStudent----------------------------*/
+ .reg_img
+{
+    height:630px;
+    margin-top:15px ;
+    background-image:url("../images/reg4.jpg");
+}
+
+
+.box2
+{
+    height: 480px;
+    width: 400px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: .7;
+    color: white;
+    padding-top: 5px;
+
+}
+
+form .Login
+{
+    margin:  auto 50px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+ p .para1
+{
+	margin-right:150px;
+	margin-left:80px;
+	margin-top:40px
+}
